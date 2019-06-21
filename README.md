@@ -7,6 +7,17 @@ and video, and can delete it.
 ## Environment
 1. Install Kotlin and JDK
 
+## Build and Run
+Build
+```bash
+./gradlew build
+```
+
+Run
+```bash
+./gradlew run --console=plain
+```
+
 ## Usage
 
 To add post:
@@ -20,3 +31,9 @@ To delete post:
 ```bash
 delete <id>
 ```
+
+To print all:
+```bash
+print
+```
+
