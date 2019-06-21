@@ -1,6 +1,6 @@
 package solid.post
 
-class ImagePost(title: String, val image: String): Post(title, "image"), Downloadable {
+class ImagePost(title: String, val image: String): Post(title), Downloadable {
 
     override fun display() {
         println("ImagePost:")

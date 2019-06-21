@@ -2,7 +2,7 @@ package solid.post
 
 import java.util.*
 
-abstract class Post (val title: String, val type: String) {
+abstract class Post (val title: String) {
 
     val id: String = UUID.randomUUID().toString()
 

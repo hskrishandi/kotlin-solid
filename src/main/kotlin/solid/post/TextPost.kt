@@ -1,6 +1,6 @@
 package solid.post
 
-class TextPost(title: String, val text: String): Post(title, "text") {
+class TextPost(title: String, val text: String): Post(title) {
 
     override fun display() {
         println("TextPost")
